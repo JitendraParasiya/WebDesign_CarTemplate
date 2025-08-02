@@ -1,0 +1,1012 @@
+/* Section 1 Css Start */
+.main{
+    background-image:url('/images/bg_1.jpg');  
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    background-color: rgba(0,0,0,0.4);
+}
+.navbar{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+}
+
+@media (max-width: 991.98px) {
+    .navbar{
+        background: #000000;
+        position: relative;
+        top: 0;
+    }
+}
+
+.navbar .BPT{
+    color: #01d28e;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:500;
+    margin-left:160px;
+}
+
+.navbar .OPT{ 
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    margin-left:20px;
+}
+
+.navbar a:hover{
+    color: rgb(1, 210, 142);
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand{
+    margin-right: 50px;
+    font-weight:800;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.navbar-brand span{
+    color: rgb(1, 210, 142);
+}
+
+.Mid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Mid h1{
+    color: white;
+    font-size: 44px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.Mid p{
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.Mid a span{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(1, 210, 142);
+    height: 70px;
+    width:70px;
+    padding: 25px;
+    border-radius:50%;
+    font-size: 10px;
+    display: inline-block;
+    justify-content: center;   
+}
+
+.Mid a{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.Mid a:hover{
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.Mid a .midle{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+/* Section 1 Css End*/
+
+
+/* Section 2 Css Start */
+
+.Sec2{
+    position:absolute;
+    top: 65%;
+    left: 5%;
+    z-index:5;
+}
+
+.form h2 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.form .form-group {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.form label {
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    border: 1px solid lightgray;
+    background:white;
+    color: #000000 ;
+    font-size: 12px;
+}
+
+.form .btn {
+    width: 100%;
+    display: block;
+}
+
+.btn.btn-secondary {
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+}
+
+.service-wrap{
+    background: white;
+}
+
+.service-wrap .heading-section {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.service-wrap p a {
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.services2 h3 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.services2 span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    font-size: 20px;
+    color: rgb(16, 137, 255);
+    background-color: #f9f9f9;
+}
+
+/* ---------- Responsive Fixes ---------- */
+@media (max-width: 768px) {
+    .form h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .form label {
+        font-size: 11px;
+    }
+
+    .form .form-control {
+        font-size: 13px;
+        height: 38px;
+    }
+
+    .service-wrap .heading-section {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .services2 {
+        margin-bottom: 20px;
+    }
+
+    .services2 h3 {
+        font-size: 15px;
+    }
+
+    .services2 span {
+        height: 60px;
+        width: 60px;
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+    .service-wrap p a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Section 2 Css End */
+
+
+/* Section3 css start  */
+.Sec3 .p {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  color: rgb(16, 137, 255);
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.Sec3 h2 {
+  font-size: 40px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.text {
+  width: 100%;
+}
+
+.vehicle-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 18px;
+  color: rgb(16, 137, 255);
+}
+
+.price span {
+  font-size: 16px;
+  color: grey;
+}
+
+@media (max-width: 768px) {
+  .Sec3 h2 {
+    font-size: 28px;
+  }
+  .swiper-slide {
+    margin-bottom: 20px;
+  }
+  .price {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+/* Section3 css end */
+
+
+/* Section 44 CSS */
+.back {
+  background-color: rgb(1, 210, 142);
+  max-width: 100%;
+  width: 100%;
+  min-height: 75vh;
+  padding: 3em 1em;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 40px;
+  bottom: 40px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Left section with image */
+.meet {
+  background-image: url(/images/bg_3.jpg);
+  background-position:right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  flex: 1 1 45%;
+  margin-bottom: 1rem;
+}
+
+/* Right section with text */
+.write {
+  flex: 1 1 45%;
+  background-color: rgb(1, 210, 142);
+  color: white;
+  padding: 2rem;
+  min-height: 400px;
+}
+
+.write span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.write h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 36px;
+  margin: 1rem 0;
+}
+
+.write p {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  line-height: 1.6;
+}
+
+
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .meet,
+  .write {
+    flex: 1 1 100%;
+    width: 100%;
+    min-height: 300px;
+  }
+
+  .write {
+    padding: 1.5rem 1rem;
+  }
+
+  .write h2 {
+    font-size: 28px;
+  }
+}
+/* End of Section 44 CSS */
+
+
+/* Section 5 Css start */
+.Sec5 span {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.Sec5 h2 {
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+}
+
+/* Services card container */
+.services5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    height: 100%;
+    transition: transform 0.3s ease;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.services5:hover {
+    transform: translateY(-15px);
+    box-shadow: 0px 0px 15px grey;
+}
+
+/* Icon styling */
+.services5 span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    color: white;
+    background: rgb(16, 137, 255);
+    margin-bottom: 20px;
+}
+
+/* Heading inside service card */
+.services5 h3 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+}
+
+/* Paragraph text */
+.services5 p {
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+    padding: 0 10px;
+}
+
+/* Remove unnecessary flex wrapper */
+.noushad {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .services5 {
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    .services5 h3 {
+        font-size: 16px;
+    }
+
+    .services5 p {
+        font-size: 13px;
+    }
+
+    .services5 span {
+        height: 60px;
+        width: 60px;
+        font-size: 24px;
+    }
+
+    .Sec5 h2 {
+        font-size: 40px;
+    }
+}
+
+/* End of Section 5 Css */
+
+/* Section 6 Css Start*/
+.Sec6{
+    background-image: url(/images/bg_3.jpg);
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 1; 
+    margin-top: 100px;
+}
+.Sec6 .overlay{
+    position: absolute;
+    top:-120px;
+    left:-100px;
+    right:0;
+    bottom: -120px;
+    width: 40%;
+    content: '';
+    opacity:1;
+    background: #01d28e;
+    transform: rotate(20deg);
+}
+.Sec6 .overlay2{
+    position: absolute;
+    top:0px;
+    left:0px;
+    right:0;
+    bottom: 0px;        
+    background:rgba(0, 0, 0, 0.5);
+}
+.R1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+    text-align: center;
+    z-index: 10;
+}
+.hey h2{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.btn6{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+
+/* ✅ Responsive Adjustments */
+@media (max-width: 768px) {
+    .hey h2 {
+        font-size: 28px;
+        padding: 0 15px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .Sec6 .overlay {
+        position: absolute;
+        top: -120px;
+        left: -100px;
+        right: 0px;
+        bottom: -120px;
+        width: 40%;
+        opacity: 1;
+        transform: rotate(20deg);
+        background: rgb(1, 210, 142);
+    }
+
+    .R1 {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hey h2 {
+        font-size: 22px;
+    }
+
+    .Sec6 {
+        min-height: 400px;
+        margin-top: 60px;
+    }
+}
+/* Section 6 CSS End */
+
+/* Section7 css start*/
+
+.Sec7 p {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  color: rgb(16, 137, 255);
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.Sec7 h2 {
+  font-size: 40px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.text {
+  width: 100%;
+}
+
+.vehicle-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.price7 {
+  font-size: 18px;
+  color: rgb(16, 137, 255);
+}
+
+.price7 span {
+  font-size: 16px;
+  color: grey;
+}
+
+@media (max-width: 768px) {
+  .Sec7 h2 {
+    font-size: 28px;
+  }
+  .swiper-slide {
+    margin-bottom: 20px;
+  }
+  .price7 {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+/* Section7 css end */
+
+/* Section8 Css start */
+.Sec8 span {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.Sec8 h2 {
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+}
+
+/* Services card container */
+.blog8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #fff;
+    
+}
+
+/* Heading inside service card */
+.blog8 h3 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+}
+
+/* Paragraph text */
+.blog8 p {
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+    padding: 0 10px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .blog8 {
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    .blog8 h3 {
+        font-size: 16px;
+    }
+
+    .blog8 p {
+        font-size: 13px;
+    }
+
+    .blog8 span {
+        height: 60px;
+        width: 60px;
+        font-size: 24px;
+    }
+
+    .Sec8 h2 {
+        font-size: 40px;
+    }
+}
+/* Section 8 Css end */
+
+/* Section 9 css Start*/
+
+.info-item .i {
+    color: #0d6efd;
+    border: 1px solid #0d6efd ;
+    font-size: 20px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 15px;
+}
+
+.info-item h3 {
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: px;
+}
+
+.info-item p {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.info-item+.info-item {
+    margin-top: 30px;
+}
+
+/* Section 9 css end*/
+
+
+
+/* Section 10 Css start*/
+
+.Sec9{
+    position: relative;
+    padding: 60px 0;
+    background: #f5f5f5;
+    z-index: 0;
+}
+
+.overlay9{
+    position: absolute;
+    width: 32%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    content: '';
+    opacity: 0;
+    background:#0d6efd;
+}
+
+@media (min-width: 992px) {
+     .overlay9 {
+        opacity: .3;
+    }
+}
+
+.container9{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 576px) {
+     .container9 {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container9 {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container9 {
+        max-width: 960px;
+    }
+}
+.text9 strong.number{
+    font-weight: 300;
+    font-size: 50px;
+    color: #1089ff;
+}
+
+.text9 span{
+    display: block;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 1.2;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+/* Section 10 Css End */
+
+
+/* Footer Css Start*/
+
+.footer{
+    font-size: 16px;
+    background:black;
+    padding: 112px 0;
+}
+
+.containerF{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .containerF {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .containerF {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .containerF {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+}
+
+.footer .logo{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.footer .logo span{
+    color: rgb(1, 210, 142);
+}
+
+.footer p{
+    color:rgba(255, 255, 255, 0.7);
+}
+
+.footer ul{
+    padding-left: 0;
+    list-style: none;
+}
+@media (min-width: 768px) {
+    .float-md-left {
+        float: left ;
+    }
+}
+
+.footer ul li{
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 28px;
+}
+
+@media (min-width: 768px) {
+    .ml-md-5, .mx-md-5 {
+        margin-left: 48px;
+    }
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+}
+
+.block-23 ul li .icon {
+    width: 40px;
+    font-size: 18px;
+    padding-top: 2px;
+    color: white;
+}
+
+.block-23 ul li .icon, .block-23 ul li .text {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.block-23 ul li span {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+}
+
+.block-23 ul li, .block-23 ul li > a {
+    display: table;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.footer p a{
+    color:rgba(255, 255, 255, 0.7);
+}
+
+/* footer Css End*/

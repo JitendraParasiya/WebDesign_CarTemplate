@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carbook Main</title>
+
+  <!-- Bootstrap CDN -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+  <!-- Swiper.JS CDN -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!--Custom CSS -->
+
+  <link rel="stylesheet" href="/Someup.css" />
+
+  <!-- Font Awesome CDN -->
+
+  <link rel="stylesheet" href="all.min.css">
+
+  <!-- ANIMANTION CDN-->
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Section 1 start -->
+  <!-- Navbar start -->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Car<span>Book</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class=" BPT navbar-nav ml-auto">
+            <a class="OPT nav-link" aria-current="page" href="#">Home</a>
+            <a class="OPT nav-link" href="#about">About</a>
+            <a class="OPT nav-link" href="#services">Services</a>
+            <a class="OPT nav-link" href="#pricing">Pricing</a>
+            <a class="OPT nav-link" href="#pricing">Cars</a>
+            <a class="OPT nav-link" href="#blog">Blog</a>
+            <a class="OPT nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="main">
+    <div class="overlay"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class=" Mid col-lg-8">
+          <div class="text w-100 text-center mb-md-5 pb-md-5">
+            <h1 class="mb-4 text-white">Fast & Easy Way To Rent A Car</h1>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.It is a
+              paradisematic country, in which roasted parts</p>
+            <a href="https://vimeo.com/25220094"
+              class="icon-wrap popup-vimeo d-flex align-items-center justify-content-center" target="_blank">
+              <div class="icon d-flex align-item-center justify-content-center">
+                <span><i class="fa-solid fa-play"></i></span>
+                <div class="midle">--- An easy step for Renting a Car.</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- End Section 1 -->
+
+  <!-- Section 2 Start -->
+
+  <section>
+    <div class="container py-5" data-aos="fade-up" data-aos-duration="1000">
+      <div class="row ">
+        <div class="col-md-12">
+          <div class="row g-0 flex-column-reverse flex-md-row">
+            <!-- Form Section -->
+            <div class="col-md-4 d-flex align-items-center p-4 bg-primary text-white rounded order-1 order-md-1">
+              <form class="w-100">
+                <h2>Make Your Trip</h2>
+
+                <div class="form-group mb-3">
+                  <label for="pickup" class="form-label">Pick-up Location</label>
+                  <input type="text" id="pickup" class="form-control" placeholder="City, Airport, Station, Etc">
+                </div>
+
+                <div class="form-group mb-3">
+                  <label for="dropoff" class="form-label">Drop-Off Location</label>
+                  <input type="text" id="dropoff" class="form-control" placeholder="City, Airport, Station, Etc">
+                </div>
+
+                <div class="row mb-3">
+                  <div class="col-12 col-md-6 mb-2 mb-md-0">
+                    <label for="book_pick_date" class="form-label">Pick-up Date</label>
+                    <input type="text" class="form-control" placeholder="Date" id="book_pick_date">
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <label for="book_off_date" class="form-label">Drop-off Date</label>
+                    <input type="text" class="form-control" placeholder="Date" id="book_off_date">
+                  </div>
+                </div>
+
+                <div class="form-group mb-3">
+                  <label for="time_pick" class="form-label">Pick-up Time</label>
+                  <input type="text" class="form-control" placeholder="Time" id="time_pick">
+                </div>
+
+                <div class="form-group">
+                  <input type="submit" value="Rent A Car Now" class="btn btn-success py-3 px-4 w-100">
+                </div>
+              </form>
+            </div>
+
+            <!-- Info Section -->
+            <div class="col-md-8 d-flex align-items-center order-2 order-md-2">
+              <div class="service-wrap p-4 w-100 border rounded">
+                <h3 class="heading-section mb-4">Better Way to Rent Your Perfect Cars</h3>
+                <div class="row text-center mb-4">
+                  <div class="col-12 col-md-4 services2 mb-3 mb-md-0">
+                    <span><i class="fa-solid fa-route fa-2x"></i></span>
+                    <h5 class="mt-3">Choose Your Pickup Location</h5>
+                  </div>
+                  <div class="col-12 col-md-4 services2 mb-3 mb-md-0">
+                    <span><i class="fa-regular fa-handshake fa-2x"></i></span>
+                    <h5 class="mt-3">Select the Best Deal</h5>
+                  </div>
+                  <div class="col-12 col-md-4 services2">
+                    <span><i class="fa-solid fa-car fa-2x"></i></span>
+                    <h5 class="mt-3">Reserve Your Rental Car</h5>
+                  </div>
+                  <a href="#" class="btn btn-primary">Reserve Your Perfect Car</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2 End -->
+
+
+  <!-- Section 3 starts -->
+
+  <section class=" mt-5 mb-5" id="pricing">
+    <div class="container mt-5 mb-2">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="section-title text-primary text-uppercase">What we offer</p>
+          <h2 class="section-heading">Featured Vehicles</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="swiper mySwiper mt-5">
+          <div class="swiper-wrapper mb-5">
+            <!-- Slide -->
+            <div class="swiper-slide">
+              <img src="/images/car-1.jpg" alt="Mercedes Grand Sedan" class="img-fluid">
+              <div class="text bg-white p-3">
+                <h2 class="vehicle-title">Mercedes Grand Sedan</h2>
+                <div class="d-flex justify-content-between mb-3">
+                  <span>Chevrolet</span>
+                  <p class="price text-primary">$500 <span class="text-dark">/ day</span></p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-primary">Book Now</button>
+                  <button class="btn btn-success">View Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/car-3.jpg" alt="Mercedes Grand Sedan" class="img-fluid">
+              <div class="text bg-white p-3">
+                <h2 class="vehicle-title">Mercedes Grand Sedan</h2>
+                <div class="d-flex justify-content-between mb-3">
+                  <span>Chevrolet</span>
+                  <p class="price text-primary">$500 <span class="text-dark">/ day</span></p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-primary">Book Now</button>
+                  <button class="btn btn-success">View Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/car-4.jpg" alt="Mercedes Grand Sedan" class="img-fluid">
+              <div class="text bg-white p-3">
+                <h2 class="vehicle-title">Mercedes Grand Sedan</h2>
+                <div class="d-flex justify-content-between mb-3">
+                  <span>Chevrolet</span>
+                  <p class="price text-primary">$500 <span class="text-dark">/ day</span></p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-primary">Book Now</button>
+                  <button class="btn btn-success">View Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/car-1.jpg" alt="Mercedes Grand Sedan" class="img-fluid">
+              <div class="text bg-white p-3">
+                <h2 class="vehicle-title">Mercedes Grand Sedan</h2>
+                <div class="d-flex justify-content-between mb-3">
+                  <span>Chevrolet</span>
+                  <p class="price text-primary">$500 <span class="text-dark">/ day</span></p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-primary">Book Now</button>
+                  <button class="btn btn-success">View Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/car-3.jpg" alt="Mercedes Grand Sedan" class="img-fluid">
+              <div class="text bg-white p-3">
+                <h2 class="vehicle-title">Mercedes Grand Sedan</h2>
+                <div class="d-flex justify-content-between mb-3">
+                  <span>Chevrolet</span>
+                  <p class="price text-primary">$500 <span class="text-dark">/ day</span></p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-primary">Book Now</button>
+                  <button class="btn btn-success">View Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/car-4.jpg" alt="Mercedes Grand Sedan" class="img-fluid rounded">
+              <div class="text bg-white p-3">
+                <h2 class="vehicle-title">Mercedes Grand Sedan</h2>
+                <div class="d-flex justify-content-between mb-3">
+                  <span>Chevrolet</span>
+                  <p class="price text-primary">$500 <span class="text-dark">/ day</span></p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-primary">Book Now</button>
+                  <button class="btn btn-success">View Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/car-3.jpg" alt="Mercedes Grand Sedan" class="img-fluid">
+              <div class="text bg-white p-3">
+                <h2 class="vehicle-title">Mercedes Grand Sedan</h2>
+                <div class="d-flex justify-content-between mb-3">
+                  <span>Chevrolet</span>
+                  <p class="price text-primary">$500 <span class="text-dark">/ day</span></p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-primary">Book Now</button>
+                  <button class="btn btn-success">View Details</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Duplicate above .swiper-slide for more items -->
+            <!-- Copy-Paste to add more cars -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3 end -->
+
+  <!-- Section 4 Start -->
+  <section class="back py-5 mt-5 mb-5" id="about">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="meet col-md-6 mb-4 mb-md-0">
+          <!-- Add your image or content here if needed -->
+        </div>
+        <div class="write col-md-6">
+          <span class="text-primary text-uppercase fw-bold">About Us</span>
+          <h2 class="fw-bold mt-2">Welcome to Carbook</h2>
+          <p class="mt-3">
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia. It is a paradisematic country, in which
+            roasted parts of sentences fly into your mouth.
+          </p>
+          <p>
+            On her way she met a copy. The copy warned the Little Blind Text,
+            that where it came from it would have been rewritten a thousand
+            times and everything that was left from its origin would be the
+            word "and" and the Little Blind Text should turn around and return
+            to its own, safe country. A small river named Duden flows by their
+            place and supplies it with the necessary regelialia. It is a
+            paradisematic country, in which roasted parts of sentences fly into
+            your mouth.
+          </p>
+          <a href="#" class="btn btn-primary py-3 px-4 mt-3">Search Vehicle</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Section 4 End -->
+
+  <!-- Section 5 Start -->
+  <section class="mt-5 mb-5" id="services">
+    <div class="container py-5">
+      <div class="row justify-content-center mb-5">
+        <div class="Sec5 col-md-7 text-center">
+          <span class="text-uppercase text-primary">Services</span>
+          <h2 class="mb-3">Our Latest Service</h2>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <!-- Service 1 -->
+        <div class="col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-up" data-aos-duration="1000">
+          <div class="services5 text-center p-3 border rounded h-100">
+            <div
+              class="icon d-flex align-items-center justify-content-center mb-3 text-primary border p-4 rounded-circle">
+              <i class="fa-solid fa-car fa-2x"></i>
+            </div>
+            <h3 class="mb-2">Wedding Ceremony</h3>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-up" data-aos-duration="1000">
+          <div class="services5 text-center p-3 border rounded h-100">
+            <div
+              class="icon d-flex align-items-center justify-content-center mb-3 text-primary border p-4 rounded-circle">
+              <i class="fa-solid fa-map-location fa-2x"></i>
+            </div>
+            <h3 class="mb-2">City Transfer</h3>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-up" data-aos-duration="1000">
+          <div class="services5 text-center p-3 border rounded h-100">
+            <div
+              class="icon d-flex align-items-center justify-content-center mb-3 text-primary border p-4 rounded-circle">
+              <i class="fa-solid fa-car-on fa-2x"></i>
+            </div>
+            <h3 class="mb-2">Airport Transfer</h3>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-up" data-aos-duration="1000">
+          <div class="services5 text-center p-3 border rounded h-100">
+            <div
+              class="icon d-flex align-items-center justify-content-center mb-3 text-primary border p-4 rounded-circle">
+              <i class="fa-solid fa-truck-monster fa-2x"></i>
+            </div>
+            <h3 class="mb-2">Whole City Tour</h3>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Section 5 End -->
+
+    <!--Section 6 Start-->
+    <section class=" mt-5 mb-5 ">
+      <div class="Sec6 col-lg-6 col-md-12">
+        <div class="overlay2"></div>
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row R1">
+            <div class="hey col-md-6 col-lg-12 col-sm-12">
+              <h2>Do You Want To Earn With Us? So Don't Be Late.</h2>
+              <a href="#" class="btn btn-primary btn-lg mt-3">Become A Driver</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Section 6 End-->
+
+    <!-- Section 7 starts -->
+    <div class="container mt-5 mb-2">
+      <div class="row">
+        <div class=" Sec7 col-12 text-center">
+          <p class="section-title text-primary text-uppercase">Testimonial</p>
+          <h2 class="section-heading">Happy Clients</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="swiper mySwiper mt-5">
+          <div class="swiper-wrapper mb-5">
+            <!-- Slide -->
+            <div class="swiper-slide">
+              <img src="/images/person_1.jpg" alt="" class="img-fluid">
+              <div class="text bg-white p-3">
+                <h2 class="vehicle-title">Roger Scott</h2>
+                <div class="d-flex justify-content-center mb-3">
+                  <p class="price7 text-primary">System Analysts</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/person_2.jpg" alt="" class="img-fluid">
+              <div class="text bg-white p-3">
+                <h2 class="vehicle-title">Gilchrist Adam</h2>
+                <div class="d-flex justify-content-center mb-3">
+                  <p class="price7 text-primary">Web Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/person_3.jpg" alt="" class="img-fluid">
+              <div class="text bg-white p-3">
+                <h2 class="vehicle-title">Smith will</h2>
+                <div class="d-flex justify-content-center mb-3">
+                  <p class="price7 text-primary">Marketing Manager</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/person_1.jpg" alt="" class="img-fluid">
+              <div class="text bg-white p-3">
+                <h2 class="vehicle-title">Roger Scott</h2>
+                <div class="d-flex justify-content-center mb-3">
+                  <p class="price7 text-primary">System Analysts</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/person_2.jpg" alt="" class="img-fluid">
+              <div class="text bg-white p-3">
+                <h2 class="vehicle-title">Gilchrist Adam</h2>
+                <div class="d-flex justify-content-center mb-3">
+                  <p class="price7 text-primary">Web Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/person_3.jpg" alt="" class="img-fluid">
+              <div class="text bg-white p-3">
+                <h2 class="vehicle-title">Smith will</h2>
+                <div class="d-flex justify-content-center mb-3">
+                  <p class="price7 text-primary">Marketing Manager</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/person_2.jpg" alt="" class="img-fluid rounded">
+              <div class="text bg-white p-3">
+                <h2 class="vehicle-title">Gilchrist Adam</h2>
+                <div class="d-flex justify-content-center mb-3">
+                  <p class="price7 text-primary">Web Developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Section 7 end -->
+
+    <!-- Section 8 Start-->
+    <section class="mb-5 mt-5" id="blog">
+      <div class="container py-5">
+        <div class="row justify-content-center mb-5">
+          <div class="Sec8 col-md-7 text-center">
+            <span class="text-uppercase text-primary">Blog</span>
+            <h2 class="mb-3">Recent Blog</h2>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <!-- Blog 1 -->
+          <div class="col-lg-4 col-md-8 col-sm-12" data-aos="flip-up" data-aos-duration="2000">
+            <div class="blog8">
+              <div class="icon">
+                <img src="/images/image_1.jpg" alt="" class="img-fluid">
+              </div>
+              <p class="text-primary mt-4">Oct. 29, 2019 Admin 3</p>
+              <h3 class="mb-2 mt-4">Why Lead Generation is Key for Business Growth</h3>
+              <button class="btn btn-primary mt-4">READ MORE</button>
+            </div>
+          </div>
+
+          <!-- Blog 2 -->
+          <div class="col-lg-4 col-md-8 col-sm-12" data-aos="flip-up" data-aos-duration="2000">
+            <div class="blog8">
+              <div class="icon">
+                <img src="/images/image_2.jpg" alt="" class="img-fluid">
+              </div>
+              <p class="text-primary mt-4">Oct. 29, 2019 Admin 3</p>
+              <h3 class="mb-2 mt-4">Why Lead Generation is Key for Business Growth</h3>
+              <button class="btn btn-primary  mt-4">READ MORE</button>
+            </div>
+          </div>
+
+          <!-- Blog 3 -->
+          <div class="col-lg-4 col-md-8 col-sm-12" data-aos="flip-up" data-aos-duration="2000">
+            <div class="blog8">
+              <div class="icon">
+                <img src="/images/image_3.jpg" alt="" class="img-fluid">
+              </div>
+              <p class="text-primary mt-4">Oct. 29, 2019 Admin 3</p>
+              <h3 class="mb-2 mt-4">Why Lead Generation is Key for Business Growth</h3>
+              <button class="btn btn-primary mt-4">READ MORE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 8 End-->
+
+    <!--Section 9 Start-->
+    <section id="contact" class="mt-5 mb-5">
+      <div class="container-fluid">
+        <div class="row justify-content-center mb-5">
+          <div class="Sec8 col-md-7 text-center">
+            <span class="text-uppercase text-primary">CONTACT</span>
+            <h2 class="mb-3">Contact us</h2>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row gy-4 mt-0">
+            <div class="col-lg-4">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-duration="500">
+                <div class="i">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                  <h3>Address</h3>
+                  <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                </div>
+              </div>
+              <!--End info item-->
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-duration="500">
+                <div class="i">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+ 1235 2355 98</p>
+                </div>
+              </div>
+              <!--End info item-->
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-duration="500">
+                <div class="i">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>info@yoursite.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <form action="" class="email-form">
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="email" name="email" class="form-control" placeholder="Your email" required>
+                  </div>
+                  <div class="col-md-12">
+                    <input type="tel" name="tel" class="form-control" placeholder="Mobile number" required>
+                  </div>
+                  <div class="col-md-12">
+                    <textarea name="message" rows="6" class="form-control" placeholder="Message" required></textarea>
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <button type="submit" class=" btn btn-primary">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Section 9 End-->
+
+    <!-- Section 10 Start -->
+    <Section class="Sec9 bg-light mt-5 ">
+      <div class="overlay9"></div>
+      <div class="container9">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12 justify-content-center counter-wrap">
+            <div class="block-18">
+              <div class="text9 text-border d-flex justify-content-center" data-aos="zoom-out-up">
+                <strong class="number">60</strong>
+                <span>
+                  year
+                  <br>
+                  Experienced
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 justify-content-center counter-wrap">
+            <div class="block-18">
+              <div class="text9 text-border d-flex justify-content-center" data-aos="zoom-out-up">
+                <strong class="number">1090</strong>
+                <span>
+                  Total
+                  <br>
+                  Cars
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 justify-content-center counter-wrap">
+            <div class="block-18">
+              <div class="text9 text-border d-flex justify-content-center" data-aos="zoom-out-up">
+                <strong class="number">2590</strong>
+                <span>
+                  Happy
+                  <br>
+                  Costumers
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 justify-content-center counter-wrap">
+            <div class="block-18">
+              <div class="text9 text-border d-flex justify-content-center" data-aos="zoom-out-up">
+                <strong class="number">67</strong>
+                <span>
+                  Total
+                  <br>
+                  Branches
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Section>
+
+    <!-- Section 10 End -->
+
+    <!--Footer Start-->
+    <footer class="footer" data-aos="fade-up" data-aos-duration="1000">
+      <div class="containerF">
+        <div class="row mb-5">
+          <div class=" col-lg-3 col-md-6">
+            <div class="mb-4">
+              <h2>
+                <a class="logo" href="#">CAR<span>BOOK</span></a>
+              </h2>
+              <p>
+                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts.
+              </p>
+              <ul class="mt-2 float-md-left float-left">
+                <li><Span><i class="fa-brands fa-x-twitter"></i></Span></li>
+                <li><span><i class="fa-brands fa-facebook"></i></span></li>
+                <li><span><i class="fa-brands fa-instagram"></i></span></li>
+                <li><span><i class="fa-brands fa-whatsapp"></i></span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="mb-4 ml-md-5">
+              <h2><a class="logo">Information</a></h2>
+              <ul>
+                <li>
+                  <a href="#" class="py-2 d-block">About</a>
+                </li>
+                <li>
+                  <a href="#" class="py-2 d-block">Service</a>
+                </li>
+                <li>
+                  <a href="#" class="py-2 d-block">Terms and Condition</a>
+                </li>
+                <li>
+                  <a href="#" class="py-2 d-block">Best Price and Guarantee</a>
+                </li>
+                <li>
+                  <a href="#" class="py-2 d-block">Privacy & Cookies Policies</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="mb-4 ml-md-5">
+              <h2>
+                <a class="logo">Customer Support</a>
+              </h2>
+              <ul>
+                <li>
+                  <a href="#" class="py-2 d-block">FAQ</a>
+                </li>
+                <li>
+                  <a href="#" class="py-2 d-block">Payment Option</a>
+                </li>
+                <li>
+                  <a href="#" class="py-2 d-block">Booking Tips</a>
+                </li>
+                <li>
+                  <a href="#" class="py-2 d-block">How it works</a>
+                </li>
+                <li>
+                  <a href="#" class="py-2 d-block">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="mb-4">
+              <h2>
+                <a class="logo">Have a Question?</a>
+              </h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li>
+                    <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+                    <span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                      <span class="text">+2 392 3929 210</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                      <span class="text">info@yourdomain.com</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 text-center">
+            <p>Copyright ©2025 All rights reserved | This template is made with
+              <i class="fa-solid fa-heart color-danger"></i> by
+              <a href="#">Colorlib</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+    <!--Footer End-->
+
+
+    <!-- Bootstrap Bundle JS CDN -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous">
+      </script>
+
+    <!-- Font Awesome Bundle CDN -->
+
+    <script src="all.min.js"></script>
+
+    <!-- Swiper.JS Bundle CDN -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+    </script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        centeredSlides: false,
+        loop: true,
+        autoplay: {
+          delay: 1200,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          320: { slidesPerView: 1 },
+          576: { slidesPerView: 2 },
+          768: { slidesPerView: 2 },
+          992: { slidesPerView: 3 },
+        }
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+
+</html>
